@@ -23,10 +23,6 @@ export default defineConfig({
     ],
     output: [
         {
-            file: 'dist/build.js',
-            format: 'cjs',
-        },
-        {
             file: 'dist/build.min.js',
             format: 'cjs',
             plugins: [terser()], // 打包后再处理的插件要放在这里

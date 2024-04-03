@@ -1,8 +1,11 @@
 {
   "name": "nodejs-logs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "easy to use nodejs logging tool",
   "main": "dist/build.min.js",
+  "files": [
+    "lib/*.min.js"
+  ],
   "scripts": {
     "lib": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +16,7 @@
     "url": "https://github.com/HunterXing/nodejs-log"
   },
   "author": "xingheng",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "devDependencies": {
     "@babel/core": "^7.24.3",
     "@babel/preset-env": "^7.24.3",
