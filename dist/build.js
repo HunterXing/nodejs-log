@@ -163,33 +163,51 @@ var Logger = /*#__PURE__*/function () {
     }
   }, {
     key: "error",
-    value: function error(message) {
-      this.log(LogLevel.error, message);
+    value: function error() {
+      for (var _len = arguments.length, message = new Array(_len), _key = 0; _key < _len; _key++) {
+        message[_key] = arguments[_key];
+      }
+      this.log(LogLevel.error, message.join(' '));
     }
   }, {
     key: "warn",
-    value: function warn(message) {
-      this.log(LogLevel.warn, message);
+    value: function warn() {
+      for (var _len2 = arguments.length, message = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+        message[_key2] = arguments[_key2];
+      }
+      this.log(LogLevel.warn, message.join(' '));
     }
   }, {
     key: "info",
-    value: function info(message) {
-      this.log(LogLevel.info, message);
+    value: function info() {
+      for (var _len3 = arguments.length, message = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
+        message[_key3] = arguments[_key3];
+      }
+      this.log(LogLevel.info, message.join(' '));
     }
   }, {
     key: "verbose",
-    value: function verbose(message) {
-      this.log(LogLevel.verbose, message);
+    value: function verbose() {
+      for (var _len4 = arguments.length, message = new Array(_len4), _key4 = 0; _key4 < _len4; _key4++) {
+        message[_key4] = arguments[_key4];
+      }
+      this.log(LogLevel.verbose, message.join(' '));
     }
   }, {
     key: "debug",
-    value: function debug(message) {
-      this.log(LogLevel.debug, message);
+    value: function debug() {
+      for (var _len5 = arguments.length, message = new Array(_len5), _key5 = 0; _key5 < _len5; _key5++) {
+        message[_key5] = arguments[_key5];
+      }
+      this.log(LogLevel.debug, message.join(' '));
     }
   }, {
     key: "silly",
-    value: function silly(message) {
-      this.log(LogLevel.silly, message);
+    value: function silly() {
+      for (var _len6 = arguments.length, message = new Array(_len6), _key6 = 0; _key6 < _len6; _key6++) {
+        message[_key6] = arguments[_key6];
+      }
+      this.log(LogLevel.silly, message.join(' '));
     }
   }]);
 }();
