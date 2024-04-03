@@ -1,6 +1,6 @@
 {
   "name": "nodejs-logs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "easy to use nodejs logging tool",
   "main": "dist/build.min.js",
   "scripts": {

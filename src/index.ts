@@ -100,28 +100,28 @@ class Logger {
     });
   }
 
-  error(message: string) {
-    this.log(LogLevel.error, message);
+  error(...message) {
+    this.log(LogLevel.error, message.join(' '));
   }
 
-  warn(message: string) {
-    this.log(LogLevel.warn, message);
+  warn(...message) {
+    this.log(LogLevel.warn, message.join(' '));
   }
 
-  info(message: string) {
-    this.log(LogLevel.info, message);
+  info(...message) {
+    this.log(LogLevel.info, message.join(' '));
   }
 
-  verbose(message: string) {
-    this.log(LogLevel.verbose, message);
+  verbose(...message) {
+    this.log(LogLevel.verbose, message.join(' '));
   }
 
-  debug(message: string) {
-    this.log(LogLevel.debug, message);
+  debug(...message) {
+    this.log(LogLevel.debug, message.join(' '));
   }
 
-  silly(message: string) {
-    this.log(LogLevel.silly, message);
+  silly(...message) {
+    this.log(LogLevel.silly, message.join(' '));
   }
 }
 

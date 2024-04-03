@@ -29,6 +29,8 @@ logger.error('message');
 logger.warn('message');
 logger.info('message');
 
+// 支持rest参数
+logger.error('message', 'message2', 'message3');
 ```
 
 ## 日志配置

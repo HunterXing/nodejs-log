@@ -2,13 +2,15 @@ const { create } = require('../src/index');
 
 const logger = create({
   mode: 2,
-  logDir: './logs2',
+  logDir: './logs',
   reserveTime: 60,
   recordLevel: [0,1,2,3,4,5],
   console: true,
 });
 
-logger.error('Hello, world!');
+const a = 1
+
+logger.error('Hello, world!', a);
 logger.info('Hello, world!');
 logger.debug('Hello, world!');
 logger.verbose('Hello, world!');
