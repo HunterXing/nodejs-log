@@ -1,13 +1,14 @@
 {
-  "name": "nodejs-log",
+  "name": "nodejs-logs",
   "version": "1.0.0",
   "description": "nodejs",
-  "main": "index.js",
+  "main": "dist/build.min.js",
   "scripts": {
     "lib": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["logging", "nodejs", "typescript"],
+  "github": "https://github.com/HunterXing/nodejs-log",
   "author": "xingheng",
   "license": "ISC",
   "devDependencies": {
