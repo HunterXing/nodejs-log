@@ -1,7 +1,7 @@
 {
   "name": "nodejs-logs",
-  "version": "1.0.0",
-  "description": "nodejs",
+  "version": "1.0.1",
+  "description": "easy to use nodejs logging tool",
   "main": "dist/build.min.js",
   "scripts": {
     "lib": "rollup --config",
