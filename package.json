@@ -1,6 +1,6 @@
 {
   "name": "nodejs-logs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "easy to use nodejs logging tool",
   "main": "dist/build.min.js",
   "scripts": {
@@ -8,7 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["logging", "nodejs", "typescript"],
-  "github": "https://github.com/HunterXing/nodejs-log",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HunterXing/nodejs-log"
+  },
   "author": "xingheng",
   "license": "ISC",
   "devDependencies": {
